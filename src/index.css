@@ -1,3 +1,4 @@
+/* cart componetnents*/
 .card {
   border: 1px solid lightcoral;
   border-radius: 10px;
@@ -5,4 +6,71 @@
   padding: 20px;
   max-width: 250px;
   display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.card .card-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.card .card-title {
+  font-family: Arial, sans-serif;
+  color: dodgerblue;
+  margin: 0;
+}
+.card .card-text {
+  font-family: monospace, "Courier New", Courier;
+  color: hsl(0, 0%, 30%);
+  font-weight: bolder;
+}
+
+/* student components */
+.student {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.9);
+}
+
+/* User Loggin  */
+.welcome-message {
+  font-size: 2.5rem;
+  background-color: rebeccapurple;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.login-prompt {
+  font-size: 2.5rem;
+  background-color: yellowgreen;
+  color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/* list componets */
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
+}
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 45%);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(0, 0%, 61%);
+  cursor: pointer;
 }
